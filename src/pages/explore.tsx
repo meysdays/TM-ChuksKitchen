@@ -40,7 +40,7 @@ const ExplorePage = () => {
           <p className="ml-40 font-bold text-2xl mt-4 -mb-8">Popular</p>
           <div className="flex flex-wrap gap-8 justify-center mt-8">
             {Chef.map((item) => (
-              <div key={item.name} className="w-1/2 md:w-1/3 lg:w-1/4">
+              <div key={item.name} className="mx-6 md:w-1/3 lg:w-1/4">
                 <Card
                   name={item.name}
                   img={item.img}

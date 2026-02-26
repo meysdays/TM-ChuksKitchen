@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div className="bg-[#64411d] text-white py-16">
       <div className="w-9/10 mx-auto">
-        <div className="flex flex-row mb-8">
-          <div className="w-1/7">
+        <div className="flex flex-col md:flex-row mb-8">
+          <div className="mb-6 md:w-1/7">
           <img src={logo} alt="" />
             <p className="text-[18px] leading-8 font-medium tracking-wide">
               Bringing the authentic flavors of Nigerian home cooking to your
@@ -16,7 +16,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-10 w-4/6 mx-auto justify-between">
+          <div className="flex flex-wrap gap-10 md:w-4/6 mx-auto justify-between">
             {footerSections.map((section) => (
               <div key={section.title} className="w-1/2 md:w-1/4">
                 <h3 className="font-bold mb-4">{section.title}</h3>

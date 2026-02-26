@@ -1,7 +1,7 @@
 import logoSrc from "../assets/images/search-icon.png";
 const SearchInput = () => {
   return (
-    <div className="w-3/6 mx-auto">
+    <div className="">
       <div className="flex items-center bg-white rounded-xl px-4 py-3">
         
         <img 

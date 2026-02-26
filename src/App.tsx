@@ -7,6 +7,7 @@ import ExplorePage from "./pages/explore";
 import MyOrders from "./pages/my-orders";
 import CheckoutPage from "./pages/checkout";
 import DeliveryPage from "./pages/delivery";
+import FoodDetails from "./pages/food-details";
 // import Footer from "./component/footer"
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/my-orders" element={<MyOrders />} />
           <Route path="/checkout" element={<CheckoutPage />} />
           <Route path="/delivery" element={<DeliveryPage />} />
+          <Route path="/details" element={<FoodDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>

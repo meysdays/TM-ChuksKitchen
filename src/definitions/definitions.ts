@@ -3,4 +3,5 @@ export interface card {
   img: string;
   description?: string;
   price?:string
+  className?:string
 }
