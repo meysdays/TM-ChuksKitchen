@@ -5,7 +5,7 @@ const FoodDetails = () => {
     <section>
       <div className="flex flex-col md:flex-row md:-mb-17">
         <div
-          className="h-[50vh] w-full md:w-1/2 bg-cover bg-center bg-no-repeat"
+          className="h-[50vh] md:h-[115vh] w-full md:w-1/2 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${details})`,
           }}

@@ -5,7 +5,7 @@ import { Chef } from "../data";
 const ExplorePage = () => {
   return (
     <section>
-      <div className="h-[70vh]">
+      <div className="h-[70vh] relative">
         <div className="flex h-full">
           <div
             className="w-full bg-cover bg-center relative"
